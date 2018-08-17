@@ -1,0 +1,11 @@
+Flask configuration steps
+
+to use 
+	>flask run
+to start an app, you have to tell the system which app to pass to flask, and this is done (on Windows) with the command
+	>set FLASK_APP=<app_name>.py
+where <app_name> is, replaced with the actual name of the app you want to run.
+
+
+To use debug mode (which also makes the server automatically update any time the source code changes),
+	>set FLASK_DEBUG=1
